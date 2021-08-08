@@ -1,11 +1,11 @@
 # Amazing-Dictionary
-An amazing dictionary realized with an ontology and graph conceptuels in Amine Platform which take each image and describe its content with graph conceptuels. And in this project, I work on 10 images.
+An amazing dictionary realized with an ontology and graph conceptuels in Amine Platform which take each image and describe its content with graph conceptuels. And in this project, I worked on 10 images.
 
 # Requirement
 1. Java 
 2. Amine Platform (A Java Open Source Platform for Development of Intelligent Systems & Multi-Agent Systems) : [Download](https://sourceforge.net/projects/amine-platform/)
 
-# 
+# Instructions
 
 If we take for example this image:
 
@@ -23,21 +23,22 @@ If we take for example this image:
 
 ### Step 1:
 
-![Step 1](/Steps/Step 1.png)
+![Step 1](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%201.png)
 
 ### Step 2:
 
-![Step 2](/Steps/Step 2.png)
+![Step 2](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%202.png)
 
 ### Step 3:
 
-![Step 3](/Steps/Step 3.png)
+![Step 3](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%203.png)
 
 ### Step 4:
 
-![Step 4](/Steps/Step 4.png)
+![Step 4](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%204.png)
 
 ### Step 5:
 
-![Step 5](/Steps/Step 5.png)
+![Step 5](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%205.png)
 
+And that's it for this mini-project 😄.
