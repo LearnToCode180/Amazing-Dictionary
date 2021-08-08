@@ -21,23 +21,21 @@ If we take for example this image:
 >
 5. And Finally, we copyed the graph in the platform and we see the result by following the steps below:
 
-### Step 1:
+### Step 1: Open the platform and choose CGEditors
 
 ![Step 1](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%201.png)
 
-### Step 2:
+### Step 2: Load the ontology
 
 ![Step 2](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%202.png)
 
-### Step 3:
-
 ![Step 3](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%203.png)
 
-### Step 4:
+### Step 3: Copy the conceptual graph in LF Editor
 
 ![Step 4](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%204.png)
 
-### Step 5:
+### Step 4: Go to CG Graphic Editor and show your graph
 
 ![Step 5](https://github.com/LearnToCode180/Amazing-Dictionary/blob/main/Steps/Step%205.png)
 
