@@ -1,0 +1,2070 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Ontology>
+  <Name>C:\Users\21268\Desktop\M2SI\S2\Periode_1\Intelligence Artificielle\Amazing Dictionary\AmazingDictionary.xml</Name>
+  <Ontologies2Import />
+  <MixedLanguage>True</MixedLanguage>
+  <Languages>
+    <Language>en</Language>
+  </Languages>
+  <MainLanguage>en</MainLanguage>
+  <RelationRoot>relation</RelationRoot>
+  <Root>
+    <Key>univ</Key>
+  </Root>
+  <CSs>
+    <Type>
+      <Key>univ</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>univ</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>relation</Key>
+        </Child>
+        <Child>
+          <Key>Action</Key>
+        </Child>
+        <Child>
+          <Key>Kitchen_Appliances</Key>
+        </Child>
+        <Child>
+          <Key>AnimateAgent</Key>
+        </Child>
+        <Child>
+          <Key>Attribute</Key>
+        </Child>
+        <Child>
+          <Key>State</Key>
+        </Child>
+        <Child>
+          <Key>Object</Key>
+        </Child>
+      </Children>
+      <Fathers />
+    </Type>
+    <Type>
+      <Key>Object</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Object</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>bag</Key>
+        </Child>
+        <Child>
+          <Key>food</Key>
+        </Child>
+        <Child>
+          <Key>AbstractEntity</Key>
+        </Child>
+        <Child>
+          <Key>money</Key>
+        </Child>
+        <Child>
+          <Key>meal</Key>
+        </Child>
+        <Child>
+          <Key>fire</Key>
+        </Child>
+        <Child>
+          <Key>ground</Key>
+        </Child>
+        <Child>
+          <Key>river</Key>
+        </Child>
+        <Child>
+          <Key>stream</Key>
+        </Child>
+        <Child>
+          <Key>cloth</Key>
+        </Child>
+        <Child>
+          <Key>injury</Key>
+        </Child>
+        <Child>
+          <Key>instrument</Key>
+        </Child>
+        <Child>
+          <Key>gas</Key>
+        </Child>
+        <Child>
+          <Key>toy</Key>
+        </Child>
+        <Child>
+          <Key>body</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>body</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>body</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>toy</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>toy</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>ball</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>ball</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>ball</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>toy</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>gas</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>gas</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>air</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>air</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>air</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>gas</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>instrument</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>instrument</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>injury</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>injury</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>cloth</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>cloth</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>bandage</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>bandage</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>bandage</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>cloth</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>stream</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>stream</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>river</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>river</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>ground</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>ground</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>fire</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>fire</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>meal</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>meal</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>money</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>money</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>AbstractEntity</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>AbstractEntity</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>country</Key>
+        </Child>
+        <Child>
+          <Key>Place</Key>
+        </Child>
+        <Child>
+          <Key>game</Key>
+        </Child>
+        <Child>
+          <Key>sport</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>sport</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>sport</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>AbstractEntity</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>game</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>game</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>AbstractEntity</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>Place</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Place</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>bakery</Key>
+        </Child>
+        <Child>
+          <Key>bank</Key>
+        </Child>
+        <Child>
+          <Key>location</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>AbstractEntity</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>location</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>location</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>outside</Key>
+        </Child>
+        <Child>
+          <Key>eitherSide</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Place</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>eitherSide</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>eitherSide</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>location</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>outside</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>outside</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>location</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>bank</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>bank</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Place</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>bakery</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>bakery</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Place</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>country</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>country</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>AbstractEntity</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>food</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>food</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>bread</Key>
+        </Child>
+        <Child>
+          <Key>cake</Key>
+        </Child>
+        <Child>
+          <Key>fruit</Key>
+        </Child>
+        <Child>
+          <Key>barbecue</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>barbecue</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>barbecue</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>food</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>fruit</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>fruit</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>banana</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>food</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>banana</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>banana</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>fruit</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>cake</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>cake</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>food</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>bread</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>bread</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>food</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>bag</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>bag</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>balloon</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>Object</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>balloon</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>balloon</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>bag</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>State</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>State</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>balance</Key>
+        </Child>
+        <Child>
+          <Key>falling</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>falling</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>falling</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>State</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>balance</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>balance</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>State</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>Attribute</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Attribute</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>steady</Key>
+        </Child>
+        <Child>
+          <Key>good</Key>
+        </Child>
+        <Child>
+          <Key>round</Key>
+        </Child>
+        <Child>
+          <Key>thin</Key>
+        </Child>
+        <Child>
+          <Key>rubber</Key>
+        </Child>
+        <Child>
+          <Key>hot</Key>
+        </Child>
+        <Child>
+          <Key>musical</Key>
+        </Child>
+        <Child>
+          <Key>open</Key>
+        </Child>
+        <Child>
+          <Key>safe</Key>
+        </Child>
+        <Child>
+          <Key>high</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>high</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>high</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>safe</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>safe</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>open</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>open</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>musical</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>musical</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>hot</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>hot</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>rubber</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>rubber</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>thin</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>thin</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>round</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>round</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>good</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>good</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>steady</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>steady</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Attribute</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>AnimateAgent</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>AnimateAgent</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>Humain</Key>
+        </Child>
+        <Child>
+          <Key>Vegetable</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>Vegetable</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Vegetable</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>plant</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>AnimateAgent</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>plant</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>plant</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Vegetable</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>Humain</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Humain</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>baker</Key>
+        </Child>
+        <Child>
+          <Key>people</Key>
+        </Child>
+        <Child>
+          <Key>walker</Key>
+        </Child>
+        <Child>
+          <Key>band</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>AnimateAgent</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>band</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>band</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Humain</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>walker</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>walker</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Humain</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>people</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>people</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Humain</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>baker</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>baker</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Humain</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>Kitchen_Appliances</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Kitchen_Appliances</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>oven</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>oven</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>oven</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Kitchen_Appliances</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>Action</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>Action</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>bake</Key>
+        </Child>
+        <Child>
+          <Key>cook</Key>
+        </Child>
+        <Child>
+          <Key>make</Key>
+        </Child>
+        <Child>
+          <Key>play</Key>
+        </Child>
+        <Child>
+          <Key>grow</Key>
+        </Child>
+        <Child>
+          <Key>keep</Key>
+        </Child>
+        <Child>
+          <Key>take</Key>
+        </Child>
+        <Child>
+          <Key>cover</Key>
+        </Child>
+        <Child>
+          <Key>blownUp</Key>
+        </Child>
+        <Child>
+          <Key>have</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>have</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>have</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>blownUp</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>blownUp</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>cover</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>cover</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>take</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>take</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>keep</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>keep</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>grow</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>grow</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>play</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>play</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>make</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>make</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>cook</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>cook</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <Type>
+      <Key>bake</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>bake</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>Action</Key>
+        </Father>
+      </Fathers>
+    </Type>
+    <RelationType>
+      <Key>relation</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>relation</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>obj</Key>
+        </Child>
+        <Child>
+          <Key>loc</Key>
+        </Child>
+        <Child>
+          <Key>attr</Key>
+        </Child>
+        <Child>
+          <Key>agnt</Key>
+        </Child>
+        <Child>
+          <Key>reason</Key>
+        </Child>
+        <Child>
+          <Key>pat</Key>
+        </Child>
+        <Child>
+          <Key>OnEitherSideOf</Key>
+        </Child>
+        <Child>
+          <Key>stripOf</Key>
+        </Child>
+        <Child>
+          <Key>groupOf</Key>
+        </Child>
+        <Child>
+          <Key>without</Key>
+        </Child>
+        <Child>
+          <Key>isA</Key>
+        </Child>
+        <Child>
+          <Key>syn</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>univ</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>syn</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>syn</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>isA</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>isA</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>without</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>without</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>groupOf</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>groupOf</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>stripOf</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>stripOf</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>OnEitherSideOf</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>OnEitherSideOf</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>pat</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>pat</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>reason</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>reason</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>agnt</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>agnt</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>attr</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>attr</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>loc</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>loc</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children>
+        <Child>
+          <Key>over</Key>
+        </Child>
+        <Child>
+          <Key>on</Key>
+        </Child>
+      </Children>
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>on</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>on</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>loc</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>over</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>over</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>loc</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+    <RelationType>
+      <Key>obj</Key>
+      <Lexicons>
+        <Lexicon>
+          <Language>en</Language>
+          <Synonyms>
+            <Synonym>obj</Synonym>
+          </Synonyms>
+        </Lexicon>
+      </Lexicons>
+      <Content>
+        <Definition />
+        <Canon />
+      </Content>
+      <Children />
+      <Fathers>
+        <Father>
+          <Key>relation</Key>
+        </Father>
+      </Fathers>
+    </RelationType>
+  </CSs>
+</Ontology>
+

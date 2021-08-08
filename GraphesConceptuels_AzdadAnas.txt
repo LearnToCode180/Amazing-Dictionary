@@ -1,0 +1,78 @@
+----------------------------------------bake----------------------------------------
+
+[oven]-isA->[Kitchen_Appliances: super].
+
+(syn: synonyme)
+[bake]-isA->[Action: super]-syn->[cook]-
+		  	           -loc->[oven].
+
+[baker]-isA->[Agnt: super]-agnt->[make]-
+			       -obj->[bread],
+		                         -obj->[cake],
+			       -loc->[bakery].
+
+----------------------------------------balance----------------------------------------
+[balance]-isA->[Action: super]- 
+		       <-pat-[keep]-
+	                                            -obj->[body]-
+			   	           -attr->[steady],
+				           -without->[falling].	
+
+[walker]<-pat-[have]-
+	               -obj->[balance]-
+			   -attr->[good].
+
+----------------------------------------ball----------------------------------------
+
+[ball]-isA->[toy: super]-
+	            -attr->[round],
+	            <-pat-[play].
+	
+
+----------------------------------------balloon----------------------------------------
+
+[balloon]-isA->[bag: super]-
+	 	        -attr->[thin],
+		        -attr->[rubber],
+		        <-pat-[blownUp]-obj->[air].
+
+----------------------------------------banana----------------------------------------
+
+[banana]-isA->[fruit: super]-
+		 <-pat-[grow]-loc->[country]-
+				        -attr->[hot].
+
+----------------------------------------band----------------------------------------
+
+[band]-
+          -groupOf->[people],
+          -play->[instrument]-attr->[musical].
+
+----------------------------------------bandage----------------------------------------
+
+[bandage]-
+                -stripOf->[cloth],
+                -reason->[cover]-obj->[injury].
+
+----------------------------------------bank----------------------------------------
+
+[bank]-isA->[ground: super]-
+		   -attr->[high],
+		   -onEitherSideOf->[river].
+
+[bank]-isA->[place: super]-
+	                        -attr->[safe],
+	                        -reason->[keep]-
+		                                -obj->[money].
+
+[bank]<-pat-[take]-
+	           -obj->[money].
+
+----------------------------------------barbecue----------------------------------------
+
+[barbecue]-isA->[meal: super]<-obj-[cook]-
+			          -loc->[outside],
+                                                               -over->[fire]
+		                            -attr->[open].					
+
+
